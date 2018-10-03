@@ -1,0 +1,25 @@
+.chart-before{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  transform-origin: 0 50%;
+  border-radius: 0 100% 100% 0 / 50%;
+}
+.chart-after{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: white
+}
+.chart{
+  text-align: center;
+  position: relative;
+  background: black linear-gradient(to right, red 50%,   blue  50%)
+}
